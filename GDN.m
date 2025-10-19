@@ -14,7 +14,7 @@ classdef GDN < nnet.layer.Layer
             [H,W,C,N] = size(X);
             beta=abs(layer.beta);
             gamma=abs(layer.gamma);
-            X_reshaped = reshape(X, H*W, C, N); % H*W x C x N
+            X_reshaped = reshape(X, H*W, C, N);
     Z_reshaped = zeros(size(X_reshaped), 'like', X);
 
     for n = 1:N
@@ -30,3 +30,4 @@ classdef GDN < nnet.layer.Layer
 
 
 end
+
