@@ -16,9 +16,29 @@ This project implements an end-to-end optimized Region of Interest (ROI) image c
   1. Download the dataset from Kaggle
   2. Extract the zip file
   3. Rename the extracted folder to **`faces`**
-  4. Place all project files in the same directory as the `faces` folder
-
+  4. Make sure the folder structure is faces/faces/Person_Name/Person_Name_0001.jpg
+  5. Place all project files in the same directory.
 ---
+
+# Project Structure
+
+Maintain the following folder structure exactly in your preferred directory(like 'MATLAB-ROI-Project'):
+```
+MATLAB-ROI-Project/
+├── decoderNetwork.m
+├── demo.m
+├── encoderNetwork.m
+├── GDN.m
+├── rateAllocate.m
+├── roi.m
+├── testImageROI.m
+└── faces/
+    └── faces/
+        └── Person_Name/
+            ├── Person_Name_0001.jpg
+            ├── Person_Name_0002.jpg
+            └── ...
+```
 
 ## **STEPS :**
 
