@@ -104,6 +104,7 @@ ROI prediction and coding are done simultaneously, so the output is truly optimi
 
 - Ensure sufficient disk space for the dataset and model files
 - The model is specifically trained on face images and may not perform optimally on other image types
+- Increase the number of epochs in **demo.m** for better training
 
 ---
 
